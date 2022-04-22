@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Json_to_CSV": {
+      "commandName": "Project",
+      "commandLineArgs": "--input-file  foo.json --master \"issues\" --field \"Issue key::key\" --field \"Issue id::id\" --field \"Summary::fields:summary\" --field \"Status::fields:status:name\" --field \"Assignee::fields:assignee:name\" --field \"Description::fields:description\" --field \"Creator::fields:creator:name\""
+    }
+  }
+}
